@@ -1,11 +1,8 @@
-export default function Parameters(params){
-
-    console.log(params)
-
+export default function Parameters(props){
     return (
         <>
             <div>
-                <h2>{ params.titulo }</h2>
+                <h2>{ props.titulo }</h2>
             </div>
         </>
     )
