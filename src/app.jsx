@@ -9,9 +9,13 @@ import Frags from './components/basics/frags'
 import Random from './random'
 import Repection from './components/basics/repection'
 import Supermarket from './components/basics/supermarket'
-
+import Parorimpar from './components/conditional/parorimpar'
 export default _ => (
     <div id="app">
+
+            <Card>
+                <Parorimpar numero={9} />
+            </Card>
 
         <Card titulo="Mercado">
             <Supermarket></Supermarket>
