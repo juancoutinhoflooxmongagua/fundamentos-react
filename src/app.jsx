@@ -8,9 +8,14 @@ import Parameters from './components/basics/parameters'
 import Frags from './components/basics/frags'
 import Random from './random'
 import Repection from './components/basics/repection'
+import Supermarket from './components/basics/supermarket'
 
 export default _ => (
     <div id="app">
+
+        <Card titulo="Mercado">
+            <Supermarket></Supermarket>
+        </Card>
 
         <Card titulo="Repetição">
             <Repection></Repection>
