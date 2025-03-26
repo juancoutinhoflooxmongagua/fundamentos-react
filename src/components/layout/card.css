@@ -1,0 +1,22 @@
+.card {
+    background-color: #f0f8ff; /* Cor de fundo mais suave */
+    color: #333; /* Cor de texto mais escura para melhor contraste */
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito suave na transição */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva o card quando passa o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais forte quando em hover */
+}
+
+.card > div {
+    margin-bottom: 15px; /* Espaçamento entre os elementos internos */
+}
+
+.card > div:last-child {
+    margin-bottom: 0; /* Remove o espaço do último item */
+}
