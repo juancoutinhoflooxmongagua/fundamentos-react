@@ -10,11 +10,14 @@ import Random from './random'
 import Repection from './components/basics/repection'
 import Supermarket from './components/basics/supermarket'
 import Parorimpar from './components/conditional/parorimpar'
+import Userinfo from './components/conditional/userinfo'
+
 export default _ => (
     <div id="app">
 
             <Card>
                 <Parorimpar numero={9} />
+                <Userinfo usuario={{nome: 'fernando'}}></Userinfo>
             </Card>
 
         <Card titulo="Mercado">
