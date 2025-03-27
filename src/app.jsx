@@ -16,13 +16,16 @@ import Userinfo from './components/conditional/userinfo'
 import FatherDirection from './components/comunication/FatherDirection'
 import SoonDirection from './components/comunication/SoonDirection'
 import Input from './components/formulario/input'
-
+import Mega from './components/megasena/Mega'
 export default _ => (
     <div id="app">
 
+        <Card>
+            <Mega></Mega>
+        </Card>
 
         <Card>
-        <Contador initialNumber={99}></Contador>
+            <Contador initialNumber={99}></Contador>
         </Card>
         <Card>
             <Input></Input>
