@@ -17,7 +17,7 @@ export default _ => (
 
             <Card>
                 <Parorimpar numero={9} />
-                <Userinfo usuario={{nome: 'fernando'}}></Userinfo>
+                <Userinfo usuario={{nome: 'fernando', email: 'juan@gmail.com'}}></Userinfo>
             </Card>
 
         <Card titulo="Mercado">

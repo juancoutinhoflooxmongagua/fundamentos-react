@@ -7,6 +7,8 @@ export default props => {
         <div>
             <If test={usuario && usuario.nome}>
             Seja bem vindo { usuario.nome }
+            <br></br>
+            Email: { usuario.email }
             </If>
         </div>
     )
