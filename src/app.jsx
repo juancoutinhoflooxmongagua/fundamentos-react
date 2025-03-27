@@ -13,16 +13,21 @@ import Parorimpar from './components/conditional/parorimpar'
 import Userinfo from './components/conditional/userinfo'
 import FatherDirection from './components/comunication/FatherDirection'
 import SoonDirection from './components/comunication/SoonDirection'
+import Input from './components/formulario/input'
+
 export default _ => (
     <div id="app">
 
-<Card>
-    <FatherDirection></FatherDirection>
-    </Card>
-            <Card>
-                <Parorimpar numero={9} />
-                <Userinfo usuario={{nome: 'fernando', email: 'juan@gmail.com'}}></Userinfo>
-            </Card>
+        <Card>
+            <Input></Input>
+        </Card>
+        <Card>
+            <FatherDirection></FatherDirection>
+        </Card>
+        <Card>
+            <Parorimpar numero={9} />
+            <Userinfo usuario={{ nome: 'fernando', email: 'juan@gmail.com' }}></Userinfo>
+        </Card>
 
         <Card titulo="Mercado">
             <Supermarket></Supermarket>

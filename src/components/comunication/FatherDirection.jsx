@@ -5,6 +5,7 @@ export default props => {
     return (
         <div>
             <SoonDirection name="Enrico" age="18" nerd={true} />
+            <SoonDirection name="Bruno" age="15" nerd={false} />
         </div>
     );
 };
