@@ -1,5 +1,7 @@
 import './index.css'
 import './app.css'
+
+import Contador from './components/contador/Contador'
 import React from 'react'
 import Card from './components/layout/card'
 import Family from './components/basics/family'
@@ -18,6 +20,10 @@ import Input from './components/formulario/input'
 export default _ => (
     <div id="app">
 
+
+        <Card>
+        <Contador initialNumber={99}></Contador>
+        </Card>
         <Card>
             <Input></Input>
         </Card>
